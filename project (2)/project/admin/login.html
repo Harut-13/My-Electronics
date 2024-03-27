@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN</title>
+    <link rel="stylesheet" href="./login.css">
+</head>
+<body>
+ 
+
+    <div class="login-form">
+        <div class="form-title">
+          <h1>Login Form</h1>
+        </div>
+        <form id="loginForm">
+          <div class="input-field">
+            <input type="text" id="login" placeholder="Username" required>
+            <i class="uil uil-user"></i>
+          </div>
+          <div class="input-field">
+            <input type="password" id="pass" placeholder="Password" required>
+            <i class="uil uil-lock"></i>
+            <i class="uil uil-eye-slash hide" onclick="showPassword()"></i>
+          </div>
+          <button class="button" type="button" id="btn" onclick="login()">
+            Login
+          </button>
+       
+        </form>
+      </div>
+
+    <script src="./login.js"></script>
+</body>
+</html>
